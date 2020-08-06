@@ -1,6 +1,6 @@
-# def roll_call_dwarves(dwarves)
-#   dwarves.each_with_index {|dwarf,i| puts "#{i+1}. #{dwarf}"}
-# end
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index {|dwarf,i| puts "#{i+1}. #{dwarf}"}
+end
   
 def summon_captain_planet(planeteer_calls)
     new_planeteer_calls = planeteer_calls.map {|call| call.capitalize + "!"}
