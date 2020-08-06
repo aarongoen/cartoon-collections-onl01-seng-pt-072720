@@ -1,16 +1,35 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+# def roll_call_dwarves(dwarves)
+#   puts dwarves.each_with_index {|i, dwarf| "#{i}. #{dwarf}"}
+#   end
+# end
+
+# def summon_captain_planet(planeteer_calls)
+#     new_planeteer_calls = planeteer_calls.collect {|call| call.capitalize + "!"}
+# end
+ 
+# def long_planeteer_calls(calls)
+#   if calls.length.any? {|call| call.length.any? > 4}
+# end
+
+def find_the_cheese(foods)
+    cheese_types = ["cheddar", "gouda", "camembert"]
+    keepers = []
+    if foods.find {|food_item| cheese_types.include?(food_item)}
+      return foods.find{|food_item| cheese_types.include?(food_item)}
+    else 
+      return nil
+    end 
+    keepers
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
-end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
-end
-
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-end
+# def find_the_cheese(food)
+#   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+#   if food.find{|x| cheese_types.include?(x)}
+#     return food.find{|x| cheese_types.include?(x)}
+#   else
+#     return nil 
+#   end
+#   sim_cheese
+# end
