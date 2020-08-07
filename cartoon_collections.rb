@@ -21,14 +21,3 @@ def find_the_cheese(foods)
     keepers
 end
 
-
-# def find_the_cheese(food)
-#   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-#   if food.find{|x| cheese_types.include?(x)}
-#     return food.find{|x| cheese_types.include?(x)}
-#   else
-#     return nil 
-#   end
-#   sim_cheese
-# end
