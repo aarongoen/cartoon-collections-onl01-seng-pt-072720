@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)
 end
  
 def long_planeteer_calls(calls)
-  calls.each {|call| call.length.any? > 4}
+  new_calls = calls.each {|call| call.length.any? > 4}
 end
 
 def find_the_cheese(foods)
